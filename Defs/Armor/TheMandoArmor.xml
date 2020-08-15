@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- The Mando Armor -->
+  <ThingDef ParentName="ArmorMachineableBase">
+		<defName>Mando_Armor</defName>
+		<label>The Mando Armor</label>
+		<description>The bounty hunter known as "Mando" was once a foundling after an attack by the Confederacy of Independent Systems when he was a young boy left him orphaned</description>
+		<techLevel>Spacer</techLevel>
+		<tradeability>Sellable</tradeability>
+		<generateCommonality>0</generateCommonality>
+		<generateAllowChance>0</generateAllowChance>
+	<graphicData>
+      <texPath>Things/Armor/TheMandoArmor/Mando_Armor</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+
+    <statBases>
+		<WorkToMake>36000</WorkToMake>
+		<MaxHitPoints>300</MaxHitPoints>
+		<Mass>12.5</Mass>
+		<Flammability>0.1</Flammability>
+		<ArmorRating_Sharp>.99</ArmorRating_Sharp>
+		<ArmorRating_Blunt>.99</ArmorRating_Blunt>
+		<ArmorRating_Heat>1.10</ArmorRating_Heat>
+		<Insulation_Cold>30</Insulation_Cold>
+		<Insulation_Heat>20</Insulation_Heat>
+		<EquipDelay>2.5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+		<MoveSpeed>0.10</MoveSpeed>
+		<SocialImpact>0.05</SocialImpact>
+	</equippedStatOffsets>
+
+    <costList>
+		<Hyperweave>30</Hyperweave>
+		<Plasteel>160</Plasteel>
+		<ComponentIndustrial>8</ComponentIndustrial>
+		<ComponentSpacer>1</ComponentSpacer>
+    </costList>
+    <recipeMaker>
+		<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+		<researchPrerequisite>JDSMandoAndPazVizlaArmorSet</researchPrerequisite>
+		<skillRequirements>
+			<Crafting>7</Crafting>
+		</skillRequirements>
+		<recipeUsers Inherit="False">
+			<li>JDSForge</li>
+        </recipeUsers>
+    </recipeMaker>
+	
+    <apparel>
+		<bodyPartGroups>
+			<li>Neck</li>
+			<li>Torso</li>
+			<li>Shoulders</li>
+			<li>Waist</li>
+			<li>Arms</li>
+			<li>Legs</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Things/Armor/TheMandoArmor/Mando_Armor</wornGraphicPath>
+		<layers>
+			<li>Shell</li>
+		</layers>
+		<tags>
+			<li>SpacerMilitary</li>
+		</tags>
+		<defaultOutfitTags>
+			<li>Soldier</li>
+		</defaultOutfitTags>
+		<useDeflectMetalEffect>true</useDeflectMetalEffect>
+	</apparel>
+	<thingCategories Inherit="False">
+		<li>Apparel</li>
+	</thingCategories>
+  </ThingDef>
+
+</Defs>

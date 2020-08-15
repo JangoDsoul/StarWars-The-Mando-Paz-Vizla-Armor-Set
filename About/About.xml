@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+	<ModMetaData>
+		<name>[JDS] Star Wars The Mando and Paz Vizla Armor Set</name>
+		<author>JangoD'soul</author>
+		<supportedVersions>
+			<li>1.0</li>
+			<li>1.1</li>
+			<li>1.2</li>			
+		</supportedVersions>
+		<packageId>JangoDsoul.StarWars.DDAPVAS</packageId>
+		<description>This add Mando(Din Djarin) and Paz Vizla Armor set from star wars Show "The Mandalorian" 
+
+!!!!!!!!!Weapon are not included!!!!!!!!!
+
+Note: no CE patch yet, Must have "Jetpack mod" by Pelador to use Paz Vizla Personal Jetpack to work
+
+[h1]Features:[/h1]
+ -The Mando(Din Djarin)  Armor Set
+ -Paz Vizla Armor Set
+ -Paz Vizla Personal Jetpack
+
+[h1]Crafting Requirements:[/h1]
+-Craftable
+-Research Requirements: PoweredArmor
+
+
+[h1]Credits:[/h1]
+- Star Wars: The Mandalorian
+- Pelador - Thanks for Patching on the jetpack mod</description>
+		<modDependencies>
+			<li>
+				<displayName>[JDS] The Forge - Anvil</displayName>			
+				<packageId>JangoDsoul.TheForge.Anvil</packageId>
+				<steamWorkshopUrl>steam://url/CommunityFilePage/1967561500</steamWorkshopUrl>
+			</li>
+		</modDependencies>
+<!--	<loadBefore>
+			<li>ModderName.ModSeries.ModName</li>
+		</loadBefore> -->	
+		<loadAfter>
+			<li>JangoDsoul.TheForge.Anvil</li>
+		</loadAfter>
+	</ModMetaData>
